@@ -2,7 +2,7 @@ import platform
 import sys
 
 def describe_machine(name: str) -> str:
-    return f"Hello {name}, running python {platform.python_version()} on {platform.system()}"
+    return f"Hello {name}, running Python {platform.python_version()} on {platform.system()}"
 
 if __name__ == "__main__":
     # Check if a name argument was passed from the terminal
